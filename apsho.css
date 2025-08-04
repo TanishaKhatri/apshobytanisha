@@ -1,0 +1,912 @@
+body {
+    overflow-x: hidden !important;
+}
+
+.navitem1 {
+    font-family: "Inter", sans-serif;
+    font-size: small;
+    letter-spacing: 2px;
+}
+
+.navbtn1:hover {
+    transform: scale(1.1);
+}
+
+.navbaritems {
+    margin-left: 100px;
+    gap: 30px;
+}
+
+.firstpagerow {
+    display: flex;
+    margin-top: 50px;
+}
+
+.firstheading {
+    color: #ff4d6b;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.firstpara {
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.firstsmallp {
+    color: grey;
+    line-height: 30px;
+}
+
+.buttons2 {
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.btn1f,
+.btn2f {
+    background-color: transparent;
+    line-height: 15px;
+}
+
+.btn1f:hover {
+    background-color: #ff4d6b;
+    color: white;
+    border-style: none;
+    transform: scale(1.1);
+}
+
+.btn2f:hover {
+    background-color: #ff4d6b;
+    color: white;
+    border-style: none;
+    transform: scale(1.1);
+}
+
+.topb {
+
+    font-size: smaller;
+    margin: auto;
+}
+
+.bottomb {
+    margin-bottom: 0px;
+}
+
+.forbtn {
+    display: flex;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+
+/* SECOND PAGE */
+
+.boxes {
+    gap: 25px;
+}
+
+.box1,
+.box2,
+.box3 {
+    height: 260px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.box1:hover {
+    transform: scale(1.1);
+}
+
+.box2:hover {
+    transform: scale(1.1);
+}
+
+.box3:hover {
+    transform: scale(1.1);
+}
+
+.imginbox {
+    height: 70px;
+    width: 70px;
+}
+
+.headinbox {
+    margin-top: 20px;
+}
+
+.parainbox {
+    color: grey;
+    font-size: small;
+}
+
+/* THIRD PAGE */
+.thirdpage {
+    margin-top: 100px;
+}
+
+/* .divblue{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: relative;
+    top: 400px;
+    left: 225px;
+    border-radius: 10%;
+    z-index: 1;
+    
+} */
+.thirdpageimg {
+    height: 650px;
+    width: 425px;
+}
+
+.forthirdcont {
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+.headof3 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.paraof3 {
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.thirdpagebtn {
+    color: #ff4d6b;
+    border-color: #ff4d6b;
+    font-family: "Inter", sans-serif;
+}
+
+.thirdpagebtn:hover {
+    background-color: #ff4d6b !important;
+    transform: scale(1.1);
+    color: white;
+}
+
+/* FOURTH PAGE */
+
+.fourthpageimg {
+    height: 650px;
+    width: 425px;
+}
+
+.forfourthcont {
+    margin-top: 130px;
+}
+
+.headof4 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.paraof4 {
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.ticknpara {
+    gap: 10px;
+}
+
+.smallpof4 {
+    color: black;
+}
+
+
+
+
+
+
+/* FIFTH PAGE */
+
+.fifthpage {
+    height: 700px;
+    background-color: rgb(223 241 244);
+}
+
+.headof5 {
+    margin-top: 20px;
+    padding-top: 60px;
+    padding-right: 150px;
+    padding-left: 150px;
+    font-weight: 500;
+}
+
+.paraof5 {
+    color: grey;
+    padding-top: 20px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.frameimg {
+    height: 388px;
+    position: absolute;
+    text-align: center;
+    left: 425px;
+    z-index: 999;
+}
+
+/* sixth page */
+.sixthpage {
+    margin-top: 100px;
+    height: 300px;
+}
+
+.headof6 {
+    font-weight: 800;
+    margin-bottom: 30px;
+    ;
+}
+
+.paraof6 {
+    color: grey;
+    font-size: larger;
+}
+
+.closeopenboxes {
+    margin-top: 70px;
+}
+
+/* seventh page */
+
+.seventhpage {
+    margin-top: 120px;
+}
+
+.headof7 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.paraof7 {
+    color: grey;
+}
+
+.cardscol {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.seventhcont {
+    margin: auto
+}
+
+.cardscontent {
+    color: grey;
+    font-size: small;
+}
+
+.cardbox {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.cardbox:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+/* eight row */
+.headof8 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.eightpage {
+    margin-top: 100px;
+}
+
+.eightrow {
+    justify-content: center;
+    gap: 20px;
+}
+
+.contentlink {
+    text-decoration: none;
+    color: rgb(81, 79, 79);
+    font-weight: 700;
+    font-size: large;
+
+}
+
+.imgincard {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 15px
+}
+
+.cardparaof8 {
+    color: grey;
+}
+
+.namendate {
+    margin-top: 20px;
+}
+
+.cardhead {
+    margin-bottom: auto;
+}
+
+.cardbox8 {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.eightpagebtn {
+    border-color: #ff4d6b;
+    color: #ff4d6b;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardbox8:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.contentlink:hover {
+    color: #ff4d6b;
+}
+
+.eightpagebtn:hover {
+    background-color: #ff4d6b !important;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* 9th page */
+.nthpage {
+    background-color: #dff1f4;
+    height: 700px;
+    margin-top: 100px;
+}
+
+.uppersection {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.intbtn {
+    background-color: white;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input9 {
+    border-style: none;
+    outline: none;
+}
+
+.btnanc {
+    text-decoration: none;
+    background-color: #ff4d6b;
+    box-shadow: 0 2px 6px #ff4d6b;
+    color: white;
+    padding: 15px 30px 15px 30px;
+}
+
+.btnanc:hover {
+    transform: scale(1.1);
+}
+
+.nthrow {
+    margin-top: 100px;
+}
+
+.bottomp {
+    color: grey;
+}
+
+.linkbottom {
+    text-decoration: none;
+    color: grey;
+}
+
+.bottomlink {
+    text-decoration: none;
+    color: #ff4d6b;
+}
+
+.bottomimg:hover {
+    transform: scale(1.1);
+}
+
+.bottomlink:hover {
+    text-decoration: underline;
+    color: rgb(119, 119, 216);
+}
+
+.linkbottom:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 320px) and (max-width: 769px) {
+    .navbarofpage {
+        background-color: white;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .navbaritems {
+        margin-left: 0 !important;
+        gap: 0px;
+    }
+
+    .navicons {
+        color: #ff4d6b;
+    }
+
+    .firstpagerow {
+        flex-direction: column-reverse;
+    }
+
+    .firstheading {
+        margin-bottom: 0px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .firstpara {
+        text-align: center;
+        font-size: xx-large;
+        font-weight: 700;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+
+    .buttons2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn1f,
+    .btn2f {
+        width: 70%;
+        text-align: center;
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+
+    /* third page mediaQ */
+    .thirdpage {
+        flex-direction: column;
+        align-items: center;
+        margin-top: unset !important;
+    }
+
+    .thirdpageimg {
+        width: 100% !important;
+        height: 450px !important;
+
+    }
+
+    .forthirdcont {
+        margin-top: unset !important;
+        margin-left: unset !important;
+        text-align: center;
+    }
+
+    /* fourth page mediaQ */
+    .fourthpage {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: unset !important;
+    }
+
+    .fourthpageimg {
+        width: 100% !important;
+        height: 450px !important;
+
+    }
+
+    .forfourthcont {
+        margin-top: unset !important;
+        margin-left: unset !important;
+        text-align: center;
+    }
+
+    .smallpof4 {
+        font-size: smaller;
+    }
+
+    /* fifth page */
+    .headof5 {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .paraof5 {
+        padding: 0px !important;
+    }
+
+    .swiper-slide img {
+        display: unset !important;
+        border-radius: 15%;
+        width: 59% !important;
+    }
+
+    .frameimg {
+        position: absolute !important;
+        text-align: center !important;
+        left: 66px !important;
+    }
+
+    /* sixth page */
+    .sixthrow {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sixthpage {
+        margin-top: 40px !important;
+    }
+
+    .closeopenboxes {
+        margin-top: 10px !important;
+    }
+
+    .headof6 {
+        font-size: larger;
+        margin-bottom: 15px !important;
+    }
+
+    .paraof6 {
+        font-size: small !important;
+    }
+
+    .contentofacc {
+        font-size: small !important;
+    }
+
+    /* seventh page */
+    .seventhrow {
+        flex-direction: column;
+    }
+
+    .seventhcont {
+        text-align: center;
+    }
+
+    .seventhpage {
+        margin-top: 200px !important;
+    }
+
+    .headof7 {
+        font-size: larger !important;
+    }
+
+    .paraof7 {
+        font-size: small;
+    }
+
+    /* eight page */
+    .eightpage {
+        margin-top: 50px !important;
+    }
+
+    .eightrow {
+        flex-direction: column;
+    }
+
+    /* 9th */
+    .nthpage {
+        height: 960px;
+    }
+
+    .nthrow {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .intbtn {
+        width: 100%;
+        font-size: small;
+    }
+
+    .bottomcols {
+        text-align: center !important;
+    }
+}
+
+/* media query 375 */
+@media screen and (min-width: 370px) and (max-width: 424px) {
+    .frameimg {
+        position: absolute !important;
+        text-align: center !important;
+        left: 103px !important;
+    }
+
+    .swiper-slide img {
+        display: unset;
+        border-radius: 15% ip !important;
+        width: 51% !important;
+        margin-left: 24px !important;
+    }
+}
+
+/* media 425 */
+@media screen and (min-width:425px) and (max-width:568px) {
+    .frameimg {
+        position: absolute !important;
+        text-align: center !important;
+        left: 130px !important;
+    }
+
+    .swiper-slide img {
+        display: unset;
+        border-radius: 15% ip !important;
+        width: 45% !important;
+        margin-left: 24px !important;
+    }
+}
+
+/* tablet screen */
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .firstpagerow {
+        text-align: center;
+    }
+
+    .firstimg {
+        width: 70%;
+    }
+
+    .firstpara {
+        font-size: xxx-large;
+    }
+
+    .buttons2 {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .btn1f {
+        width: 30% !important;
+    }
+
+    .btn2f {
+        width: 30% !important;
+    }
+
+    .headof2 {
+        font-size: xxx-large;
+    }
+
+    .boxes {
+        flex-direction: row;
+    }
+
+    .box1 {
+        width: 30%;
+    }
+
+    .box2 {
+        width: 30%;
+    }
+
+    .box3 {
+        width: 30%;
+    }
+
+    .headof4 {
+        font-weight: 800;
+    }
+
+    .headof5 {
+        font-weight: 700;
+    }
+
+    .swiper-slide img {
+        width: 80% !important;
+    }
+
+    .frameimg {
+        position: absolute !important;
+        text-align: center !important;
+        left: 290px !important;
+    }
+
+    .headof6 {
+        font-size: xx-large;
+    }
+
+    .headof7 {
+        font-size: xx-large !important;
+    }
+
+    .paraof7 {
+        font-size: unset;
+    }
+
+    .cardbox {
+        width: 30rem;
+    }
+
+    .headof8 {
+        font-size: -webkit-xxx-large;
+    }
+
+    .eightrow {
+        flex-direction: row;
+    }
+
+    .eightcardbox {
+        width: 30% !important;
+    }
+
+    .nthpage {
+        height: auto;
+    }
+
+    .nthrow {
+        flex-direction: row;
+        justify-content: center !important;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width:1440px) and (max-width:2560px) {
+    .navbaritems {
+        margin-right: unset !important;
+        margin-left: 400px;
+    }
+
+    .navitem1 {
+        font-size: large;
+    }
+
+    .navbtn1 {
+        padding: 15px;
+    }
+
+    .firstpagecont {
+        margin-top: 100px;
+
+    }
+
+    .firstpara {
+        font-size: 65px;
+        margin-bottom: 40px;
+    }
+
+    .firstheading {
+        font-size: larger;
+        margin-left: 15px;
+    }
+
+    .firstsmallp {
+        font-size: larger;
+        word-spacing: 8px;
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
+    .btn1f, .btn2f{
+        width: 35%;
+    }
+    .headof2{
+        font-size: 55px;
+    }
+    .box1{
+        height: 320px;
+    }
+    .box2{
+        height: 320px;
+    }
+    .box3{
+        height: 320px;
+    }
+    .imginbox{
+        height: 100px;
+        width: 100px;
+    }
+    .headinbox{
+        font-size: xx-large;
+    }
+    .parainbox{
+        font-size: large;
+    }
+    .thirdpageimg {
+    height: 765px;
+    width: 500px;
+    margin-left: 45px;
+    }
+    .forthirdcont{
+        margin-left: unset !important;
+        padding-right: 150px;
+        margin-top: 180px;
+    }
+    .fourthpageimg{
+        height: 765px;
+        width: 500px;
+        margin-left: 50px;
+    }
+    .forfourthcont{
+        padding-left: 140px;
+        margin-top: 180px;
+    }
+    .headof4{
+        font-size: 46px;
+    }
+    .paraof4{
+        word-spacing: 10px;
+        font-size: larger
+    }
+    .smallpof4{
+        font-size: 20px;
+    }
+    .ticknpara img{
+            height: 35px;
+             width: 30px;
+    }
+    .headof5{
+        font-size: 52px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .paraof5{
+        font-size: larger;
+    }
+    .fifthpage{
+        height: 990px;
+    }
+    .frameimg{
+        height: 542px;
+        position: absolute;
+        left: 592px;
+        text-align: center;
+    }
+    .sixthpagecont{
+        margin-top: 100px;
+        padding-left: 70px;
+        padding-right: 50px;
+    }
+    .seventhcont{
+        padding-left: 100px;
+    }
+    .headof7{
+        font-size: 50px;
+    }
+    .paraof7{
+        font-size: larger;
+    }
+    .headof8{
+        font-size: 55px;
+    }
+}
+
+/* media 2560 */
+
+@media  screen and (min-width:2560px) {
+    .navbaritems{
+        margin-left: 490px;
+    }
+    .fifthpage{
+        height:990px;
+    }
+    .frameimg{
+        height: 540px;
+    position: absolute;
+    text-align: center;
+    left: 1148px;
+    z-index: 999;
+    }
+}
